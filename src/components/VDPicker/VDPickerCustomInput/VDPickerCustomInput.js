@@ -53,6 +53,7 @@ export default baseMixins.extend({
     // ------------------------------
     onKeyDown (event) {
       this.$emit('keydown', event);
+      console.log('test');
     },
     clearableCallback () {
       this.$emit('clearDate');

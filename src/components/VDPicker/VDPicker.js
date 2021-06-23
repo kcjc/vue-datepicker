@@ -291,6 +291,7 @@ export default baseMixins.extend({
         on: {
           click: this.showDatePicker,
           keydown: this.onKeyDown,
+          focus: this.onKeyDown,
         },
         ref: 'activator',
       }, [
